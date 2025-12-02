@@ -1,0 +1,328 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+body{
+ background-color: rgb(204, 191, 191);
+}
+
+/*header */
+.logo {
+   border-radius: 20px;
+   background-color:white;
+    height:200px ;
+    display: flex;
+    width: 100%;
+   
+}
+
+.rightimage {
+  height: 200px;
+  width: 200px;
+  background-image: url(/image/rightlogo.jpg);
+  background-size: cover;
+  margin-left:250px ;
+ 
+  
+}
+.animehub {
+    height: 150px;
+    width: 400px;
+    background-image: url(/image/animehub.jpg);
+    margin-left: 250px;
+    
+  
+}
+.leftimage {
+    height: 200px;
+    width: 200px;
+    background-image: url(/image/left.png);
+    background-size: cover;
+   
+
+}
+
+
+   
+  
+   
+    
+
+
+#home1 {
+    background-color: rgb(115, 115, 124);
+    height: 40px;
+    width: 100px;
+    border: 0px solid blue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: yellow;
+    
+    height: 60px;
+    border-radius: 20px;
+}
+.listitem {
+    list-style: none;
+    display: flex;
+    
+
+}
+.listitem a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  
+}
+ .listitem li{
+    margin-left: 130px;
+    padding: 20px;
+}
+
+ .listitem li:hover {
+    border: 0px solid aliceblue;
+    background-color: rgb(20, 61, 97);
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+/*header */
+
+
+
+
+/*section */
+.naruto {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    background-image: url(/image/naruto1.jpg);
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+
+
+
+.naruto11 {
+    display: flex;
+    border: px solid blue;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+#buttonnaruto {
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 55px;
+    width: 140px;
+    color: blue;
+    background-color: aquamarine;
+    margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#narutotext {
+    color: skyblue;
+    text-align: center;
+}
+ #buttonnaruto:hover {
+    background-color: blue;
+    color: black;
+ }
+
+/*section  end*/
+
+
+
+
+.topsection {
+    display: flex;
+}
+
+.search {
+    margin-left: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#inputsearch {
+    border: 0px solid;
+    border-bottom: 0px solid black;
+    height: 40px;
+    width: 250px; 
+    text-align: center;
+    border-radius: 20px;
+    color:blue;
+   
+}
+
+#inputsearch:hover{
+    border:0px solid;
+
+
+}
+button {
+  background-color: aliceblue;
+  height: 40px;
+  width: 70px;border-radius: 20px;
+}
+
+button:hover {
+    background-color: aqua;
+    border: none;
+}
+
+#topic{
+    margin-top: 30px;
+    color: indigo;
+    margin-left: 30px;
+}
+
+
+
+
+/*section anime */
+
+
+
+.anime{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+.anime div:hover {
+  
+    transform: scale(1.05);
+}
+.anime div {
+    width: 200px;
+    
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+
+.div1{
+    height: 250px;
+    width: 200px;
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: none;
+   
+  
+}
+
+.div2{
+    height: 250px;
+    width: 200px;
+    margin-left: 40px;
+   text-align: center;
+}
+
+.div3{
+    height: 250px;
+    width: 200px;
+    margin-left: 40px;
+    text-align: center;
+   
+  
+}
+
+.div4{
+    height: 250px;
+    width: 200px;
+    margin-left: 40px;
+   text-align: center;
+  
+}
+
+.div5{
+    height: 250px;
+    width: 200px;
+    margin-left: 40px;
+    text-align: center;
+  
+  
+}
+img {
+    height: 250px;
+    width: 200px;
+    padding-top: 0px;
+    background-position: cover;
+}
+pre {
+    color: rgb(30, 182, 55);
+    font-weight: 200;
+}
+h4 {
+    color: blue;
+   
+}
+a {
+    text-decoration: none;
+}
+
+/*section anime end */
+#Website {
+    color: blue;
+}
+
+
+
+footer {
+    height: 200px;
+   background-color: darkslateblue;
+}
+.groupname{
+    display: flex;
+   
+}
+.quicknavbar{
+    display: flex;
+}
+center {
+    height: 20px;
+    background-color: azure;
+    
+}
+.socialmedia {
+    background-color: darkslateblue;
+    text-align: center;
+   padding-bottom: 20px;
+
+}
+.socialmedia a {
+    margin-left: 30px;
+    color: white;
+}
+#navitem {
+    display: flex;
+    
+    list-style: none;
+}
+#navitem li a{
+    color: black;
+    margin-left: 100px;
+    font-size: larger;
+}

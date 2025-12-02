@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+/*header */
+.logo {
+   border-radius: 20px;
+   background-color:white;
+    height:200px ;
+    display: flex;
+    width: 100%;
+   
+}
+
+.rightimage {
+  height: 200px;
+  width: 200px;
+  background-image: url(/image/rightlogo.jpg);
+  background-size: cover;
+  margin-left:250px ;
+ 
+  
+}
+.animehub {
+    height: 150px;
+    width: 400px;
+    background-image: url(/image/animehub.jpg);
+    margin-left: 250px;
+    
+  
+}
+.leftimage {
+    height: 200px;
+    width: 200px;
+    background-image: url(/image/left.png);
+    background-size: cover;
+   
+
+}
+
+
+   
+  
+   
+    
+
+
+#manga1 {
+    background-color: rgb(115, 115, 124);
+    height: 40px;
+    width: 100px;
+    border: 0px solid blue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.navbar {
+    background-color: yellow;
+    
+    height: 60px;
+    border-radius: 20px;
+}
+.listitem {
+    list-style: none;
+    display: flex;
+    
+
+}
+.listitem a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  
+}
+ .listitem li{
+    margin-left: 130px;
+    padding: 20px;
+}
+
+ .listitem li:hover {
+    border: 0px solid aliceblue;
+    background-color: rgb(20, 61, 97);
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.topsection {
+    display: flex;
+}
+
+.search {
+    margin-left: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#inputsearch {
+    border: 0px solid;
+    border-bottom: 0px solid black;
+    height: 40px;
+    width: 250px; 
+    text-align: center;
+    border-radius: 20px;
+    color:blue;
+   
+}
+
+#inputsearch:hover{
+    border:0px solid;
+
+
+}
+button {
+  background-color: aliceblue;
+  height: 40px;
+  width: 70px;border-radius: 20px;
+}
+
+button:hover {
+    background-color: aqua;
+    border: none;
+}
+
+#topic{
+    margin-top: 30px;
+    color: indigo;
+    margin-left: 30px;
+}
+
+body {
+    background-image: url('/image/anima\ boy.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #ff6347;
+}
+.manga {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: rgba(34, 34, 34, 0.8); 
+}
+img {
+    margin-right: 20px;
+    width: 300px; 
+    height: 150px; 
+}
+p {
+    text-align: justify;
+}
+hr {
+    border: 1px solid #444;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.content h1 {
+    margin: 0;
+}
+
+
+
+
+/*header */
+/* footer */
+#Website {
+    color: blue;
+}
+
+
+
+footer {
+    height: 100px;
+   background-color: darkslateblue;
+}
+.groupname{
+    display: flex;
+   
+}
+.quicknavbar{
+    display: flex;
+}
+center {
+    height: 20px;
+    background-color: azure;
+    
+}
+.socialmedia {
+    background-color: darkslateblue;
+    text-align: center;
+   padding-bottom: 20px;
+    padding-top: 40px;
+}
+.socialmedia a {
+    margin-left: 30px;
+    color: white;
+}
+#navitem {
+    display: flex;
+    background-color: darkslateblue;
+    
+    list-style: none;
+}
+#navitem li a{
+    color: black;
+    margin-left: 100px;
+    font-size: larger;
+    text-decoration: none;
+}
